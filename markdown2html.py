@@ -27,7 +27,8 @@ def markdown_to_html(markdown_f, output_f):
         if line.startswith('#'):
             heading_lvl = min(6, line.count('#'))
             heading_txt = line.strip('#').strip()
-            html_lines.append(f"<h{heading_lvl}>{heading_txt}</h{heading_lvl}>")
+            html_lines.append(f"< h{heading_lvl} >
+                              {heading_txt} < /h{heading_lvl} >")
 
         elif line.startswith('-'):
             html_lines.append("<ul>")
