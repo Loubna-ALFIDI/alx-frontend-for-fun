@@ -1,4 +1,5 @@
 #!/usr/bin/python3
+""" Convert Markdown file to HTML file. """
 import sys
 import os
 import re
