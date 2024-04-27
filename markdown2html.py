@@ -30,8 +30,3 @@ def convert_markdown_to_html(markdown_file, output_file):
 
     # Print success message
     sys.exit(0)
-
-
-if __name__ == "__main__":
-    """ Main function. """
-    convert_markdown_to_html(sys.argv[1], sys.argv[2])
