@@ -1,8 +1,8 @@
 :root {
-    --box-width-small: 100px;
-    --box-width-medium: 150px;
+    --box-width-small: 70px;
+    --box-width-medium: 100px;
     --box-width-large: 200px;
-    --box-height-small: 50px;
+    --box-height-small: 55px;
     --box-height-medium: 70px;
     --box-height-large: 125px;
     --font-small: 20px;
