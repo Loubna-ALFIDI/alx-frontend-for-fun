@@ -1,6 +1,3 @@
-//sorting a list
-@import '103-sort_list';
+$sorted_list: sort($list_to_sort);
 
-$sorted-list: sort($list_to_sort);
-
-@debug $sorted-list;
+@debug $sorted_list;
